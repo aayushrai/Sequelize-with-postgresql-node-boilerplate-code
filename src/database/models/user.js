@@ -11,7 +11,7 @@ export default (sequelize, DataTypes) => {
       // define association here
     }
   }
-  user.init(
+  User.init(
     {
       name: DataTypes.STRING,
       email: DataTypes.STRING,

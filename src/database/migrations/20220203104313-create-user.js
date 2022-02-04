@@ -13,7 +13,7 @@ export default {
       email: {
         type: Sequelize.STRING,
         allowNull: false,
-        unique: false,
+        unique: true,
       },
       createdAt: {
         allowNull: false,
